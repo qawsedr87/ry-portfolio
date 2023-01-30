@@ -13,6 +13,18 @@ const projectsData = [
       }
     ],
   },
+  {
+    title: "Orders Apis with Kafka",
+    description:
+      "This repository is the simple Spring Boot project with Kafka message brocker and PostgreSQL. It sends and consumes messages to Kafka and store the data in PostgreSQL.",
+    tags: ["Java", "Spring boot", "Kafka", "PostgreSQL"],
+    links: [
+      {
+        icon: GitHub,
+        href: "https://github.com/qawsedr87/OrdersViaKafka",
+      }
+    ],
+  },
 ];
 
 export default projectsData;
