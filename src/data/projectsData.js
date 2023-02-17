@@ -25,6 +25,18 @@ const projectsData = [
       }
     ],
   },
+  {
+    title: "Personal Balance Backend",
+    description:
+      "This repository can be built using Java, and SQL Server can be used as the database to store the personal financial data.",
+    tags: ["Java", "Spring boot", "SQL Server", "MapStruct", "RESTful Api"],
+    links: [
+      {
+        icon: GitHub,
+        href: "https://github.com/qawsedr87/personal-balance-backend",
+      }
+    ],
+  },
 ];
 
 export default projectsData;
