@@ -14,11 +14,12 @@ import {
 } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import { Menu, ChevronRight } from "@mui/icons-material";
+import ResumeLouise from "../assets/ResumeLouise.pdf";
 
 const navigationLinks = [
   { name: "About", href: "#about" },
   { name: "Project", href: "#projects" },
-  { name: "Resume", href: "/Resume_Louise.pdf" },
+  { name: "Resume", href: ResumeLouise },
 ];
 
 const useStyles = makeStyles((theme) => ({
@@ -51,6 +52,13 @@ const useStyles = makeStyles((theme) => ({
 export default function Header() {
   const styles = useStyles();
   const [open, setOpen] = useState(false);
+  
+  const onDownload = () => {
+    const link = document.createElement("a");
+    link.download = `ResumeLouise.pdf`;
+    link.href = ResumeLouise;
+    link.click();
+  };
 
   return (
     <AppBar position="sticky">
@@ -69,6 +77,7 @@ export default function Header() {
                 {item.name}
               </Link>
             ))}
+
           </Hidden>
 
           <Hidden lgUp>
