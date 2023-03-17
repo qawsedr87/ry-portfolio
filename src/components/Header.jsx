@@ -18,7 +18,7 @@ import { Menu, ChevronRight } from "@mui/icons-material";
 const navigationLinks = [
   { name: "About", href: "#about" },
   { name: "Project", href: "#projects" },
-  // { name: "Resume", href: "/resume.pdf" },
+  { name: "Resume", href: "/Resume_Louise.pdf" },
 ];
 
 const useStyles = makeStyles((theme) => ({

@@ -79,7 +79,7 @@ export default function HomePanel() {
               </Box>
               <Box my={5}>
                 <Button
-                  href="mailto:ryryryrylin@gmail.com"
+                  href="mailto:louise360992@gmail.com"
                   variant="outlined"
                   color="secondary"
                 >
