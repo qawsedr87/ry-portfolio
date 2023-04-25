@@ -4,7 +4,7 @@ import { Grid, Link, IconButton } from "@mui/material";
 
 const socialItem = [
   { icon: GitHub, url: "https://github.com/qawsedr87" },
-  // { icon: LinkedIn, url: "/" },
+  { icon: LinkedIn, url: "https://www.linkedin.com/in/louise-lin-939073141" },
 ];
 
 export default function Social({ direction }) {
